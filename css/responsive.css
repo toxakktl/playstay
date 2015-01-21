@@ -1,0 +1,305 @@
+/* ================================= Responsive CSS ================================= */
+/* ---------- MAX 1280px ---------- */
+@media only screen and (max-width:1280px) {	
+	/* Contact */
+	.footer .form-control{
+		width:200px !important;
+	}
+	.footer .has-feedback .form-control{
+		padding-right:0px;
+	}
+}
+/* ---------- MAX 1199px ---------- */
+@media only screen and (max-width:1199px) {	
+	/* Client */
+	.clients .client-logo .logo-top img, .clients .client-logo .logo-bottom img{
+		margin:15px 25px;
+	}
+	/* Contact */
+	.footer .form-control{
+		width:180px !important;
+	}
+}
+/* ---------- MAX 1024px ---------- */
+@media only screen and (max-width:1024px) {
+	/* Header */
+	.text-slider-section{
+		width:88%;
+	}
+	/* Menu Navbar */
+	.nav > li > a{
+		padding:10px 14px;
+	}
+	/* Client */
+	.clients .client-logo .logo-top img, .clients .client-logo .logo-bottom img{
+		margin:15px;
+	}		
+	/* Blog */
+	.blog .blog-box img, .blog .effects .img {
+		float:none;
+		width:100%;
+	}
+	.blog .blog-image{
+		text-align:center;
+	}
+	.blog-content{
+		padding:20px 20px 32px;
+	}
+	/* Contact */
+	.footer .form-control{
+		width:173px !important;
+	}
+	/* Blog Grid */
+	.blog-grid .blog-social i{
+		margin:0 2px;
+	}
+	.blog-grid .blog-social{
+		padding:10px 5px 0;
+	}
+	/* Blog Timeline */
+	.blog-timeline-event-left:before{
+		right:-42px;
+	}
+	.blog-timeline-event-right:before{
+		left:-30px;
+	}
+}
+/* ---------- MAX 991PX ---------- */
+@media only screen and (max-width:991px) {
+	#short-code #top-section-sticky-wrapper{
+		height:120px;
+	}
+	/* Product */
+	.products-section .effects img {
+		width:100%;
+	}	
+	/* Video Bg */
+	.video-bg .header{
+		padding:15% 0;
+	}	
+	/* Client */
+	.clients .divider{
+		display:none;
+	}
+	/* Contact */
+	.footer .form-control{
+		width:240px !important;
+	}	
+	/* Footer */
+	.footer .footer-post{
+		padding:0px 15px;
+	}
+	.footer .footer-categories-top{
+		padding-left:15px;
+	}	
+	/* Blog Outer */
+	.blog-outer .blog-inner-bottom .social-title, .blog-outer .blog-inner-bottom .blog-social,  .blog-outer .blog-title{
+		text-align:center;
+	}
+	.blog-status img{
+		width:100%;
+	}	
+	.blog-outer .blog-status ul{
+		text-align:center;
+	}
+	/* Shortcodes */
+	.shortcodes .testimonial .testimonial2-inner .testimonial-content img, .shortcodes .testimonial3-inner .item-img{
+		float:none;
+		text-align:center;
+		margin:10px auto;
+		display:block; 
+	}
+	.shortcodes .carousel .carousel-indicators{
+		bottom:-15px;
+	}
+	/* Blog Grid Page */
+	.blog-grid .blog-inner{
+		width:100%;
+	}
+	.blog-timeline .blog-status .blog-title{
+		border-left:0px;
+	}
+}
+/* ---------- MAX 800PX ---------- */
+@media only screen and (max-width:800px){
+	/* Blog Timeline */
+	.blog-timeline-event-left:before{
+		right:-38px;
+	}
+	.blog-timeline-event-right:before{
+		left:-26px;
+	}
+}
+/* ---------- MAX 768PX ---------- */
+@media only screen and (max-width:768px){
+	/* Menu Navbar */
+	.nav > li > a{
+		padding:10px;
+	}
+}
+/* ---------- MIN 768PX ---------- */
+@media only screen and (min-width:768px){
+	.dropdown:hover .dropdown-menu{
+		display: block !important;
+	}
+
+	.timeline .vertical-timeline li .info {
+		margin-left: 270px;
+	}
+}
+/* ---------- MAX 767PX ---------- */
+@media only screen and (max-width:767px) {
+	/* Navbar */
+	.navbar{
+		min-height:10px;
+	}
+	.top-navbar .navbar-collapse {
+		max-height: 200px;
+	}
+	.top-container{
+		padding:10px 10px 2px;
+	}
+	.top-navbar ul.nav a {
+		padding:10px 0px;
+	}
+	#top-section-sticky-wrapper.is-sticky .top-container {
+		padding:5px 10px 0px;
+	}
+	#header-top #top-section-sticky-wrapper.is-sticky .top-container{
+		padding:5px 10px 0px;
+	}
+	/* Purchase Now Button*/
+	.purchase-button h2{
+		text-align:center;
+	}
+	.purchase-button .slide-btn{
+		margin:0 auto;
+	}
+	/* Feature */
+	.feature-box.middle-border{
+		border:0px;
+	}
+	.features-border{
+		border:0px;
+	}
+	/* Counting */
+	.counting i, .counting .factor{
+		padding-bottom:5%;
+	}
+	/* Contact */
+	.footer .form-control{
+		width:230px !important;
+	}
+	/* Footer */
+	.footer .footer-categories-top{
+		padding-left:15px;
+	}
+	/* Copyright */
+	.copyright h4, .copyright-social-icon{
+		text-align:center;
+		padding:10px 0px;
+	}
+	/* Portfolio */
+	.five, .five-big{
+		width: 50%;
+	}
+	/* Disable Animations */
+	.animated {
+		visibility: visible !important;
+	  	-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	/* Blog Grid Page */
+	.blog-grid .grid-posts{
+		width:100%;
+	}
+	/* Blog Timeline */
+	.blog-timeline-event-left, .blog-timeline-event-right {
+		padding:0px;
+		margin-left:0;
+		width:100%;
+	}
+	.blog-timeline-right{
+		padding-top:0px;
+	}
+	.blog-timeline-event-left:before, .blog-timeline-event:after, .blog-timeline-event-right:before{
+		display:none;
+	}
+	.blog-timeline-left{
+		border:0px;
+	}
+}
+/* ---------- MAX 640PX ---------- */
+@media only screen and (max-width:640px) {
+	/* Feature */
+	.container.features-inner{
+		padding:60px 50px;
+	}
+	/* Portfolio */
+	#portfolio li{
+		margin:20px 0;
+	}	
+}
+/* ---------- MAX 480PX ---------- */
+@media only screen and (max-width:480px) {
+	/* Header */
+	.text-slider-section{
+		width:84%;
+	}
+	.slides-navigation a.prev {
+		left: 0px;
+	}
+	.slides-navigation a.next {
+		right: 0px;
+	}
+	.text-slider li{
+		font-size:40px;
+	}
+	/* Feature */
+	.container.features-inner{
+		padding:60px 30px;
+	}	
+	/* Video Bg */
+	.video-bg .header{
+		padding:30% 0;
+	}	
+	/* About Us */
+	.about-us i{
+		float:none;
+		text-align:center;
+		display:block;
+		margin:10px auto;
+	}
+}
+/* ---------- MAX 360PX ---------- */
+@media only screen and (max-width:360px) {
+	/* Global */
+	.title{
+		font-size:41px;
+	}
+	/* Feature */
+	.container.features-inner{
+		padding:60px 15px;
+	}
+	/* Portfolio */	
+	.five, .five-big{
+		width:100%;
+	}
+	.portfolio-items .work .work-inner-big, .work-image a, .work-image, .work-image a img{
+		height:230px;
+	}
+}
+/* ---------- MAX 320PX ---------- */
+@media only screen and (max-width:320px) {	
+	/* Blog Outer Sidebar */
+	.sidebar-facebook .facebook-inner{
+		padding:10px;
+	}	
+	/* Client */
+	.clients .client-logo .logo-top img, .clients .client-logo .logo-bottom img{
+		margin:15px 5px;
+	}
+}
